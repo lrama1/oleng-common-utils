@@ -1,0 +1,27 @@
+{
+  "name": "oleng-common-utils",
+  "version": "0.0.1",
+  "description": "Utility for various common functions",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lrama1/oleng-mfe-utils.git"
+  },
+  "keywords": [
+    "MFE",
+    "Micro",
+    "Frontend"
+  ],
+  "author": "Lawrence Rama",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lrama1/oleng-mfe-utils/issues"
+  },
+  "homepage": "https://github.com/lrama1/oleng-mfe-utils#readme",
+  "dependencies": {
+    "react": "^18.0.0"
+  }
+}

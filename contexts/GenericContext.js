@@ -1,8 +1,9 @@
-import React, { createContext, useContext, useState } from 'react';
+const React = require('react');
+const { createContext, useContext, useState } = React;
 
 const GenericContext = createContext();
 
-export const GenericProvider = ({ children, initialState }) => {
+const GenericProvider = ({ children, initialState }) => {
   const [state, setState] = useState(initialState);
 
   return (
@@ -12,6 +13,8 @@ export const GenericProvider = ({ children, initialState }) => {
   );
 };
 
-export const useGenericContext = () => {
+const useGenericContext = () => {
   return useContext(GenericContext);
 };
+
+module.exports = { GenericProvider, useGenericContext };

@@ -1,6 +1,6 @@
 {
   "name": "oleng-common-utils",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Utility for various common functions",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/lrama1/oleng-mfe-utils.git"
+    "url": "git+https://github.com/lrama1/oleng-common-utils.git"
   },
   "keywords": [
     "MFE",
@@ -18,9 +18,9 @@
   "author": "Lawrence Rama",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/lrama1/oleng-mfe-utils/issues"
+    "url": "https://github.com/lrama1/oleng-common-utils/issues"
   },
-  "homepage": "https://github.com/lrama1/oleng-mfe-utils#readme",
+  "homepage": "https://github.com/lrama1/oleng-common-utils#readme",
   "dependencies": {
     "react": "^18.0.0"
   }
